@@ -1,0 +1,264 @@
+.container{
+    width: 92%;
+    height: 900px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    border: 50px solid rgb(18, 18, 71);
+    border-bottom: none;
+
+
+}
+.container .navbar
+{
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+}
+.navbar ul{
+    display: flex;
+    justify-content: start;
+}
+
+ul h5{
+    margin-right: 50px;
+}
+ul img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+ul .equalsym{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.equalsym section
+{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin-top: 7px;
+    margin-left: 10px
+
+}
+.container .subcon
+{
+    width: 100%;
+    height: 88%;
+    border: 0px solid black;
+    display: flex;
+}
+.subcon .left{
+    width: 50%;
+    height: 100%;
+   
+}
+
+.left .brain-con
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.brain-con .icons{
+    width: 10%;
+    height: 60%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.icons div 
+{
+    width: 90%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin-bottom: 5px;
+}
+.brain-con .brainimg{
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 50px;   
+}
+
+.brainimg img
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+}
+
+.left .bottom
+{
+    height: 100px;
+    width: 350px;
+    margin-top: -220px;
+    margin-left: 150px;
+    display: flex;
+}
+
+.bottom section
+{
+    width: 30%;
+    height: 100%;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.left .corner
+{
+    width: 100px;
+    height: 100px;
+    margin-top: -60px;
+    margin-left: 20px;
+}
+.subcon .right{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+.right .searchmenu{
+    width: 50%;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 50%;
+}
+.searchmenu .menu{
+    width: 40px;height:70%;border: 1px solid black;margin-left: 80%;
+    margin-top:-35px;
+    border-radius: 30px;
+    background-color: white;
+}
+.menu .l1{
+    width: 20px;
+    height: 1px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: black;
+}
+.menu .l2{
+    width: 15px;
+    height: 1px;
+    border: 1px solid black;
+    margin-left: 12px;
+    margin-top: 5px;
+    background-color: black;
+}
+.menu .l3{
+    width: 10px;
+    height: 1px;
+    border: 1px solid black;
+    margin-left: 15px;
+    margin-top: 5px;
+    background-color: black;
+}
+.right .bigboxes{
+    height: 500px;
+    width: 550px;
+    
+    margin-top: 30px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.bigboxes .bigboxes1{
+    width: 375px;
+    height: 100%;
+    border: 1px solid black;
+    
+    
+}
+.bigboxes .bigboxes2{
+    width: 200px;
+    height: 100%;
+
+    margin-left: 5px; 
+}
+.bigboxes1 .bigboxes11{
+    width: 100%;
+    height:65%;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+.bigboxes1 .bigboxes12{
+    width: 100%;
+    height: 35%;
+    
+    background-color: rgb(209, 226, 241);
+    display: flex;
+}
+.bigboxes12 .bigbox1a{
+    width: 200px;
+    height: 95%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.bigboxes12 .bigbox1b{
+    width: 200px;
+    height: 95%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+.bigboxes2 .bigboxes2a{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.bigboxes2 .bigboxes2b{
+
+    width: 100%;
+    height: 49%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.right .last{
+    width: 100%;
+    height: 190px;
+    
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: white;
+}
+.last .lastcol1{
+    width: 100%;
+    height: 25%;
+    border: 1px solid black;
+    border-radius: 7px;
+    
+}
+.last .lastcol2{
+    width: 100%;
+    height: 25%;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.last .lastcol3{
+    width: 100%;
+    height: 25%;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.last .lastcol4{
+    width: 100%;
+    height: 25%;
+    border: 1px solid black;
+    border-radius: 7px;
+    display: flex;
+}
+
